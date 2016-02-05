@@ -8,6 +8,7 @@
 set -o pipefail
 
 PATH=$PATH:/opt/local/sdc/bin
+source ~/.bashrc
 
 : ${MANTA_USER:?"MANTA_USER environment variable is missing"}
 : ${MANTA_URL:?"MANTA_URL environment variable is missing"}
